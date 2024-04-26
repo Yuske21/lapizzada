@@ -1,0 +1,226 @@
+/*************************************************
+                    MEDIA 1180 PX
+*************************************************/
+@media (max-width: 1180px){
+    /*---------- SECTION - OUR CLIENTS ---------*/
+    .boxClient{
+        width: 48%;
+        margin: 1%;
+    }
+    .panel-circle-ima-client-star{
+        justify-content: center;
+    }
+    .client-data{
+        width: 50%;
+        text-align: left;
+    }
+}
+
+
+
+@media all and (max-width:850px) {
+    /*.flex-row.nav {
+        position: absolute;
+        top: 0;
+        left: -300px;
+        bottom: 0;
+        width: 300px;
+        height: 100vh;
+        background-color: #000;
+        z-index: 200000;
+        padding: 50px 20px;
+        ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+   }
+    .header-menu {
+        width: 100%;
+   }
+    .header-menu li {
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 20px;
+   }
+    #openmenu, #closemenu {
+        display: inline-block;
+   }
+    #closemenu {
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+        margin-top: -25px;
+   }*/
+}
+
+/*************************************************
+                    MEDIA 780 PX
+*************************************************/
+@media (max-width: 780px){
+    /*---------- SECTION - OUR DETAILS ---------*/
+    .panel-ourDetails{
+        width: 45%;
+        font-size: 25px;
+    }
+    /*----------  SECTION - ABOUT US -----------*/
+    .panel-aboutUs{
+        width: 100%;
+    }
+   
+    .panel-aboutUs2{
+        width:100%;
+        .ima-aboutUs{
+            width: 60%;            
+            position: absolute; /* Posiciona el elemento absolutamente dentro del contenedor */
+            top: 50%; /* Lo desplaza hacia abajo un 50% de la altura del contenedor */
+            left: 50%; /* Lo desplaza hacia la derecha un 50% del ancho del contenedor */
+            transform: translate(-50%, -50%); /* Centra el elemento horizontal y verticalmente */            
+        }
+        .ima-aboutUs2{            
+            position: static;
+            width: 100%;
+        }        
+    }
+
+    /*---------- SECTION - OUR CHEFS -----------*/
+    .container-ima-chef{
+        width: 49%;
+        margin-bottom: 6px;
+    }
+
+    /*---------- SECTION - OUR MENU -----------*/
+    .box-menu{
+        width: 100%;
+    }
+
+    /*---------- SECTION - FOOTER -------------*/
+    .panel-data-footer{
+        padding: 0% 2% 0% 2%;
+        width: 100%;
+        border: none;
+        border-bottom: 2px dotted var(--color1);
+    }
+    .panel-data-address-footer{
+        width: 50%;
+    }
+
+    .panel-footer-socialNetwork{
+        width: 50%;
+    }
+
+    .form-suscription-footer{
+        width: 60%
+    }
+}
+
+/*************************************************
+                    MEDIA 575 PX
+*************************************************/
+@media (max-width: 575px) {
+    /*---------- SECTION - OUR CLIENTS ---------*/
+    .panel-circle-ima-client-star{
+        justify-content: center;
+    }
+    .client-data{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*************************************************
+                    MEDIA 480 PX
+*************************************************/
+@media (max-width: 480px){
+    /*---------- SECTION - OUR DETAILS ---------*/
+    .panel-ourDetails{
+        width: 45%;
+        font-size: 25px;
+    }
+
+    /*---------- SECTION - OUR CHEFS -----------*/
+    .container-ima-chef{
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+    /*---------- SECTION - OUR CLIENTS ---------*/
+    .boxClient{
+        width: 100%;
+        margin: 1%;
+    }
+
+    .panel-circle-ima-client-star{
+        justify-content: start;
+    }
+    .client-data{
+        width: 50%;
+        text-align: center;
+    }
+
+    /*---------- SECTION - OUR MENU -----------*/
+    .panel-ima-menu-details, .menu-details-data{
+        width: 100%;                
+    }
+    
+    .panel-ima-menu-details{
+        display: flex;
+        justify-content: center;
+        margin: 10% 0% 6% 0%;
+    }
+
+    .ima-menu-details{
+        width: 40%;        
+    }
+
+    /*---------- SECTION - FOOTER -------------*/
+    .form-suscription-footer{
+        width: 90%
+    }
+}
+
+/*************************************************
+                    MEDIA 360 PX
+*************************************************/
+@media (max-width: 360px){
+    .panel-data-address-footer{
+        width: 100%;
+    }
+
+    .panel-footer-socialNetwork{
+        width: 100%;
+    }
+}
+/*************************************************
+                    MEDIA 320 PX
+*************************************************/
+@media (max-width: 320px){
+    /*---------- SECTION - OUR DETAILS ---------*/
+    .panel-ourDetails{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .div-recognition{
+        justify-content: center;        
+        .panel-quality-aboutUs{
+            margin: 5px 0px 5px 0px;
+        }
+        .p-number{
+            /*font-size: 40px;*/
+            font-size: clamp(1.5rem, 1.0774rem + 3.7936vw, 2.5rem);/*minimum, preffered, maximum*/
+        }
+        .p-text{
+            /*font-size: 20px;*/
+            font-size: clamp(0.1rem, 1.0774rem + 3.7936vw, 1.0rem);/*minimum, preffered, maximum*/
+        }
+    }
+}
