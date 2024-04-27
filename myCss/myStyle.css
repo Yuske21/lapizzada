@@ -60,13 +60,14 @@ input[type="submit"]{
     border-radius: 5px;
     cursor: pointer;
     height: 40px;
-    padding: 0% 5% 0% 5%;
-    box-shadow: 0px 0px 4px var(--color1);
+    padding: 0% 5% 0% 5%;    
+    font-weight: 600;
 }
 
 input[type="submit"]:hover{
-    background-color: #f5e274;
     cursor: pointer;
+    background-color: #f5e274;    
+    box-shadow: 0px 0px 4px var(--color1);
 }
 
 /*************************************************
@@ -148,17 +149,29 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;    
+}
+
+.spanLeft-header{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
     align-items: center;
+    width: 60%;
 }
 
-.spanLeft{
-    text-align: left;    
-    width: 40%;
+.address-header{
+    width: 310px;     
 }
 
-.spanRight{
+.phone-header{
+    width: 180px;    
+}
+
+.spanRight-header{
+    padding-top: 1%;
     text-align: right;
-    width: 40%;
+    width: 200px;
 }
 
 .header-link-socialNetwork{
@@ -559,7 +572,7 @@ nav{
 *************************************************/
 footer{
     background-color: var(--color4);
-    padding: 0.5% 0% 0% 0%;
+    padding: 0.5% 0% 0% 0%;    
 }
 
 .container-data-footer{
@@ -571,7 +584,7 @@ footer{
 }
 
 .panel-data-footer{
-    padding: 0% 2% 1% 1%;
+    padding: 0% 2% 1% 2%;
     width: 33%;    
     border-right: 2px dotted var(--color1);    
     text-align: left;
@@ -596,11 +609,12 @@ footer{
     justify-content: start;
     align-items: center;
     width: 100%;
+    
 }
 
 .address-info-footer{
     width: 100%;
-    padding: 1% 0% 1% 0%;
+    padding: 2% 0% 1% 0%;
 }
 
 .panel-footer-socialNetwork{
@@ -608,21 +622,21 @@ footer{
     padding: 5% 0% 2% 0%;    
     text-align: center;
     margin: 2% 0% 2% 0%;  
-    border-top: 2px dotted var(--color1);
-    border-bottom: 2px dotted var(--color1);    
+    /*border-top: 2px dotted var(--color1);
+    border-bottom: 2px dotted var(--color1);*/    
 }
 
 .panel-ico-footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;    
+    display: flex;    
+    justify-content: center;
+    align-items: center;   
     width: 100%;    
-    text-align: center;    
+    text-align: center;
 }
 
-.footer-link-socialNetwork{
-    font-size: 20px;
+.footer-link-socialNetwork{    
     padding: 0% 2%;
+    font-size: 20px;    
 }
 
 .slogan-footer{
@@ -669,11 +683,14 @@ footer{
 }
 
 /*------- CopyRight-------*/
-.panel-copyright{    
+.panel-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1% 0% 1% 0%;
     width: 100%;
-    border-top: 1px solid var(--color1);
-    text-align: center;
+    height: 60px;
+    border-top: 1px solid var(--color1);    
     font-weight: bold;    
 }
 
@@ -690,9 +707,8 @@ footer{
 /***********************************************************************************************************/
 
 .container-main{
-    width: 100%;
-    height: 430px;
-    background-color: var(--color0-trans);
+    width: 100%;    
+    background-color: var(--color0-trans);    
 }
 
 .container-panel-login{
@@ -701,14 +717,14 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;    
-    padding: 2% 0% 0% 0%;    
+    padding: 3% 0% 3% 0%;
 }
 
 .panel-login{
     padding: 2%;
-    width: 40%;
+    width: 400px;
     border-radius: 15px;
-    border: 1px solid var(--color3-light);
+    border: 1px solid var(--color2);
     background-color: #00000096;
 }
 
@@ -716,8 +732,10 @@ footer{
     font-size: 30px;
 }
 
-.panel-form-login{
-    padding: 1% 0% 2% 25%;
+.panel-form-login{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-login{    
@@ -733,12 +751,19 @@ footer{
     width: 100%;
 }
 
+.panel-check-help{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+}
+
 .input-submit-login{
-    width: 50%;
+    width: 100%;
 }
 
 .panel-submit-login{
-    padding-top: 5%;
+    padding: 2% 0% 2% 0%;
     text-align: center;
 }
 
@@ -748,10 +773,10 @@ footer{
 }
 
 .borderTop{
-    border-top: 1px solid var(--color3-light);
+    border-top: 1px solid var(--color2);
 
 }
 
 .borderBottom{
-    border-bottom: 1px solid var(--color3-light);
+    border-bottom: 1px solid var(--color2);
 }

@@ -134,12 +134,35 @@
         width: 100%;
         text-align: center;
     }
+
+    /********************************************/
+    /*********** LOGIN.HTML *********************/
+    /*---------- SECTION - LOGIN USER ----------*/
+    .panel-login{        
+        border: none;
+    }
+}
+
+/*************************************************
+                    MEDIA 530 PX
+*************************************************/
+@media (max-width: 530px) {
+    .spanRight-header{        
+        width: 100%;
+        text-align: center;         
+    }
+
+    .spanLeft-header{     
+        width: 100%;
+    }
 }
 
 /*************************************************
                     MEDIA 480 PX
 *************************************************/
 @media (max-width: 480px){
+    /*---------- HEADER ------------------------*/
+
     /*---------- SECTION - OUR DETAILS ---------*/
     .panel-ourDetails{
         width: 45%;
@@ -184,6 +207,14 @@
     /*---------- SECTION - FOOTER -------------*/
     .form-suscription-footer{
         width: 90%
+    }
+
+
+    /********************************************/
+    /***********LOGIN.HTML***********************/
+    /*---------- SECTION - LOGIN USER ----------*/
+    .panel-login{
+        width: 100%;
     }
 }
 
