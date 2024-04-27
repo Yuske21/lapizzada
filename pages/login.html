@@ -18,12 +18,16 @@
 </head>
 <body>
     <header>
-        <div class="containerHeader">
-            <span class="spanLeft">
-                <a href="#"><i class="fa-solid fa-location-dot"></i> 25 de Mayo 22, San Miguel de Tucumán</a> - 
-                <i class="fa-solid fa-phone"></i> +54 (0381) 431-4200
-            </span>
-            <span class="spanRight">
+        <div class="containerHeader">            
+            <span class="spanLeft-header">
+                <div class="address-header">
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> 25 de Mayo 22, San Miguel de Tucumán</a>  
+                </div>
+                <div class="phone-header">
+                    <i class="fa-solid fa-phone"></i> +54 (0381) 431-4200
+                </div>
+            </span>                        
+            <span class="spanRight-header">
                 <span class="header-link-socialNetwork">
                     <a href="#"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
                 </span>
@@ -49,10 +53,14 @@
     <nav>
         <div class="containerNav">
             <span class="">
-                <h1 class="font1"><i class="fa-solid fa-pizza-slice"></i> LA PIZZADA</h1>
+                <h1 class="font1">
+                    <a href="../index.html">
+                        <i class="fa-solid fa-pizza-slice"></i> LA PIZZADA
+                    </a>
+                </h1>
             </span>
             <span class="container-link-nav">
-                <a href="#" class="link-nav">Inicio</a>
+                <a href="../index.html" class="link-nav">Inicio</a>
                 <a href="#" class="link-nav">Menú</a>
                 <a href="#" class="link-nav">Pedidos</a>
                 <a href="#" class="link-nav">Contactos</a>
@@ -62,7 +70,7 @@
                         0
                     </span>
                 </a>
-                <a href="#" class="link-nav">
+                <a href="./login.html" class="link-nav">
                     <i class="fa-solid fa-circle-user fa-lg"></i>
                 </a>                
             </span>             
@@ -70,6 +78,7 @@
     </nav>
 
     <main class="container-main">
+        <!-- SECTION LOGIN USER-->
         <section class="container-panel-login">   
             <div class="panel-login">
                 <div class="panel-title-login borderBottom font1">Iniciar Sesion</div>    
@@ -85,16 +94,21 @@
                             <label for="">Password</label>
                         </div>
                         <div class="panel-input-login">
-                            <input type="password" name="" id="" class="input-login">
+                            <input type="password" name="password" id="password" class="input-login">
                         </div>
                         <div class="panel-submit-login">
                             <input type="submit" class="input-submit-login" value="Iniciar">    
-                        </div>                        
+                        </div>
+                        <div class="panel-check-help">
+                            <span class="span-help-login"><input type="checkbox" name="recordarme" id="recordarme"> Recordarme</span> 
+                            <span class="span-help-login">
+                                <a href="">¿Necesitas Ayuda?</a>
+                            </span>
+                        </div>                      
                     </form>
                 </div>
-                <div></div>
                 <div class="panel-register-login borderTop">
-                    <a href="">Registrarse</a>
+                    <a href="">Registrarse Ahora</a>
                 </div>
                 <div class="panel-register-login">
                     <a href="">¿Olvidaste tu usuario y contraseña?</a>
@@ -103,7 +117,6 @@
             
         </section>
     </main>
-
     <!-- FOOTER -->
     <footer>
         <div class="container-data-footer">
@@ -141,7 +154,7 @@
                                 <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
                             </span>                    
                             <span class="footer-link-socialNetwork">
-                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                <a href="#"><i class="fa-brands fa-tiktok fa-lg"></i></a>
                             </span>
                         </span>
                         <div class="address-info-footer">
@@ -187,8 +200,7 @@
                                 <input type="submit" name="" id="" class="input-submit-footer" value="Suscribise">
                             </div>
                         </form>
-                    </div>
-                     
+                    </div>                     
                 </div>
             </span>
         </div>
