@@ -1,0 +1,60 @@
+{
+    "pizzas": [
+        {
+            "id": "1",
+            "nombre": "Pizza Vegetariana",
+            "descripcion": "Deliciosa pizza con variedad de vegetales frescos.",
+            "ingredientes": "Tomate, Pimiento, Cebolla, Aceitunas, Champiñones, Queso Mozzarella",
+            "precio": "2500",
+            "imagen": "https://kentucky.com.ar/imgs/productos/2/thumb0000.jpg?v=1716794360"
+        },
+        {
+            "id": "2",
+            "nombre": "Pizza Moderna",
+            "descripcion": "Pizza gourmet con ingredientes de alta calidad.",
+            "ingredientes": "Queso de Cabra, Rúcula, Tomate Seco, Aceitunas, Pesto",
+            "precio": "2700",
+            "imagen": "https://kentucky.com.ar/imgs/productos/1/thumb0000.jpg?v=1716794360"
+        },
+        {
+            "id": "3",
+            "nombre": "Pizza Especial de Cebolla",
+            "descripcion": "Pizza con cebolla caramelizada y queso.",
+            "ingredientes": "Cebolla Caramelizada, Queso Mozzarella, Orégano, Aceite de Oliva",
+            "precio": "3100",
+            "imagen": "https://kentucky.com.ar/imgs/productos/3/thumb0000.jpg?v=1716794360"
+        },
+        {
+            "id": "4",
+            "nombre": "Pizza Alemana",
+            "descripcion": "Pizza con salchichas alemanas y queso.",
+            "ingredientes": "Salchichas Alemanas, Queso Cheddar, Mostaza, Cebolla, Perejil",
+            "precio": "3000",
+            "imagen": "https://kentucky.com.ar/imgs/productos/5/thumb0000.jpg?v=1716794360"
+        },
+        {
+            "id": "5",
+            "nombre": "Pizza Inferno",
+            "descripcion": "Pizza picante con jalapeños y salsa especial.",
+            "ingredientes": "Jalapeños, Salsa Picante, Pepperoni, Queso Mozzarella",
+            "precio": "3500",
+            "imagen": "https://kentucky.com.ar/imgs/productos/6/thumb0000.jpg?v=1716794360"
+        },
+        {
+            "id": "6",
+            "nombre": "Pizza Fugazzeta de Jamon",
+            "descripcion": "Pizza rellena de queso y jamón.",
+            "ingredientes": "Queso Mozzarella, Jamón, Cebolla, Orégano",
+            "precio": "3300",
+            "imagen": "https://kentucky.com.ar/imgs/productos/7/thumb0000.jpg?v=1716794360"
+        },
+        {
+            "id": "7",
+            "nombre": "Pizza Fugazzeta de Pepperoni",
+            "descripcion": "Pizza rellena de queso y pepperoni.",
+            "ingredientes": "Queso Mozzarella, Pepperoni, Cebolla, Orégano",
+            "precio": "3200",
+            "imagen": "https://kentucky.com.ar/imgs/productos/8/thumb0000.jpg?v=1716794360"
+        }
+    ]
+}
