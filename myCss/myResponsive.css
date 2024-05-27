@@ -17,51 +17,6 @@
 }
 
 
-
-@media all and (max-width:850px) {
-    /*.flex-row.nav {
-        position: absolute;
-        top: 0;
-        left: -300px;
-        bottom: 0;
-        width: 300px;
-        height: 100vh;
-        background-color: #000;
-        z-index: 200000;
-        padding: 50px 20px;
-        ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
-   }
-    .header-menu {
-        width: 100%;
-   }
-    .header-menu li {
-        float: none;
-        margin-right: 0px;
-        margin-bottom: 20px;
-   }
-    #openmenu, #closemenu {
-        display: inline-block;
-   }
-    #closemenu {
-        -ms-flex-item-align: end;
-            align-self: flex-end;
-        margin-top: -25px;
-   }*/
-}
-
 /*************************************************
                     MEDIA 780 PX
 *************************************************/
@@ -75,7 +30,7 @@
     .panel-aboutUs{
         width: 100%;
     }
-   
+
     .panel-aboutUs2{
         width:100%;
         .ima-aboutUs{
@@ -138,7 +93,7 @@
     /********************************************/
     /*********** LOGIN.HTML *********************/
     /*---------- SECTION - LOGIN USER ----------*/
-    .panel-login{        
+    .panel-login, .panel-login-success{
         border: none;
     }
 }
@@ -213,7 +168,7 @@
     /********************************************/
     /***********LOGIN.HTML***********************/
     /*---------- SECTION - LOGIN USER ----------*/
-    .panel-login{
+    .panel-login, .panel-login-success{
         width: 100%;
     }
 }

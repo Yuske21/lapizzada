@@ -732,6 +732,19 @@ footer{
     font-size: 30px;
 }
 
+.panel-login-success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 400px;
+    height: 410px;
+    border-radius: 15px;
+    border: 1px solid var(--color2);
+    background-color: #00000096;
+    text-align: center;
+}
+
 .panel-form-login{    
     display: flex;
     justify-content: center;
