@@ -83,22 +83,28 @@
             <div class="panel-login">
                 <div class="panel-title-login borderBottom font1">Iniciar Sesion</div>    
                 <div class="panel-form-login">
-                    <form action="" method="" class="form-login">
-                        <div>
+                    <form id="formLogin" action="" method="" class="form-login">
+                        <div class="labelLogin">
                             <label for="">Usuario</label>
                         </div>
                         <div class="panel-input-login">
-                            <input type="text" name="usuario" id="usuario" class="input-login">
+                            <input type="text" name="user" id="user" class="input-login">
                         </div>
-                        <div>
+                        <div id="userMsg" class="userValidation-Msg">
+                            Ingrese un usuario valido.
+                        </div>
+                        <div class="labelLogin">
                             <label for="">Password</label>
                         </div>
                         <div class="panel-input-login">
-                            <input type="password" name="password" id="password" class="input-login">
+                            <input type="password" name="pass" id="pass" class="input-login">
+                        </div>
+                        <div id="passMsg" class="passValidation-Msg">
+                            Ingrese una contraseña valida.
                         </div>
                         <div class="panel-submit-login">
-                            <input type="submit" class="input-submit-login" value="Iniciar">    
-                        </div>
+                            <input type="submit" class="input-submit-login" value="Iniciar">
+                        </div>                        
                         <div class="panel-check-help">
                             <span class="span-help-login"><input type="checkbox" name="recordarme" id="recordarme"> Recordarme</span> 
                             <span class="span-help-login">
@@ -188,13 +194,13 @@
                                 <label for="">Nombre:</label>
                             </div>    
                             <div>
-                                <input type="text" name="" id="" class="input-text-footer">
+                                <input type="text" name="name" id="name" class="input-text-footer">
                             </div>
                             <div>
                                 <label for="">E-mail:</label>
                             </div>
                             <div>
-                                <input type="email" name="" id="" class="input-email-footer">
+                                <input type="email" name="email" id="email" class="input-email-footer">
                             </div>
                             <div class="panel-input-submit-footer">
                                 <input type="submit" name="" id="" class="input-submit-footer" value="Suscribise">
@@ -213,6 +219,8 @@
             <span>CopyRight&copy; 2024 - Todos Derechos Reservados</span>            
         </div>        
     </footer>
+
+    <script src="../myJScript/my-jScript.js"></script>    
 
 </body>
 </html>
