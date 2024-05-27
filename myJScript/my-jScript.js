@@ -1,4 +1,7 @@
 /********************************************* */
+const panelLogin = document.querySelector("#panelLogin");
+
+/* */
 var inputUser = document.getElementById('user');
 var inputPass = document.getElementById('pass');    
 
@@ -16,6 +19,26 @@ function validationLogin(event){
         passMsg.style = 'display: block;';
         inputPass.style = 'border: 1px solid red;';
         inputPass.focus();              
+        event.preventDefault();
+    }else {
+        const panelLogueo = document.querySelector(".panel-Login");
+        panelLogueo.style.display = "none";
+
+        const panelSuccess = document.createElement("div");
+        panelSuccess.classList.add("panel-login-success");
+        panelSuccess.innerHTML = `<div class="panel-title-login font1">
+                Iniciando Sesion... 
+                <i class="fa-solid fa-spinner fa-spin-pulse"></i>
+            </div>`;
+        
+        panelLogin.append(panelSuccess);
+
+        // Redirigir a la página principal después de 3 segundos
+        setTimeout(() => {
+            window.location.href = "../index.html?User=" + inputUser.value;
+            ; // Reemplaza con la URL de tu página principal
+        }, 3000);
+        
         event.preventDefault();
     }
 }
