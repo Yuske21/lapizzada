@@ -735,16 +735,20 @@ footer{
 .panel-form-login{    
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .form-login{    
     width: 75%;
-    padding: 2%;
+    padding: 0% 2%;    
 }
 
-.panel-input-login{
-    padding-bottom: 5%;
+.labelLogin{
+    padding-top: 4%; 
+}
+
+.panel-input-login{    
+    padding: 1px;
 }
 
 .input-login{
@@ -755,10 +759,12 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 12px;
+    font-size: 12px;    
+    margin: 4% 0% 6% 0%;
 }
 
 .input-submit-login{
+    margin-top: 8%;
     width: 100%;
 }
 
@@ -779,4 +785,13 @@ footer{
 
 .borderBottom{
     border-bottom: 1px solid var(--color2);
+}
+
+.userValidation-Msg, .passValidation-Msg{
+    display: none;
+    font-size: 0.8rem;
+    color: var(--color4);
+    font-style: italic;    
+    margin-top: 0px;
+    font-weight: 600;
 }
