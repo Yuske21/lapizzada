@@ -12,12 +12,14 @@ function validationLogin(event){
 
     if(inputUser.value === ''){
         userMsg.style = 'display: block;';
-        inputUser.style = 'border: 1px solid red;'
+        inputUser.style = 'border: 1px solid red;';
+        inputUser.style = 'background-color: #e94848;';
         inputUser.focus();
         event.preventDefault();
     }else if(inputPass.value === ''){
         passMsg.style = 'display: block;';
         inputPass.style = 'border: 1px solid red;';
+        inputPass.style = 'background-color: #e94848;';
         inputPass.focus();              
         event.preventDefault();
     }else {
@@ -58,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     inputPass.addEventListener('input', function() {
         if(inputPass.value.length >= 1){                        
-            userMsg.style = 'display: none;';
+            passMsg.style = 'display: none;';
             inputPass.style = 'border-color: black;'
         }        
     });
