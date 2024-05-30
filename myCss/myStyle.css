@@ -745,6 +745,14 @@ footer{
     text-align: center;
 }
 
+.login-font-welcome{
+    color: var(--color3);
+}
+
+.login-font-user{
+    color: var(--color4);
+}
+
 .panel-form-login{    
     display: flex;
     justify-content: center;
