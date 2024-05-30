@@ -22,13 +22,14 @@ function validationLogin(event){
         inputPass.style = 'background-color: #e94848;';
         inputPass.focus();              
         event.preventDefault();
-    }else {
+    }else if(inputUser.value == "admin123" && inputPass.value == "admin123"){
         const panelLogueo = document.querySelector(".panel-Login");
         panelLogueo.style.display = "none";
 
         const panelSuccess = document.createElement("div");
         panelSuccess.classList.add("panel-login-success");
         panelSuccess.innerHTML = `<div class="panel-title-login font1">
+                <p><span class="login-font-welcome">BIENVENIDO </span><span class="login-font-user">`+ inputUser.value +`</span></p>
                 Iniciando Sesion... 
                 <i class="fa-solid fa-spinner fa-spin-pulse"></i>
             </div>`;
@@ -42,6 +43,8 @@ function validationLogin(event){
         }, 3000);
         
         event.preventDefault();
+    }else {
+        alert("Datos de Usuario inexistentes. Por favor ingrese nuevamente sus datos.");
     }
 }
 
